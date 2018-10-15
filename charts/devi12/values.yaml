@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.51.240.201:5000/desarvani12/devi12
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: devi12
